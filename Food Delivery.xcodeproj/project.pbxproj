@@ -507,6 +507,7 @@
 				204F70481F840A07003DC38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204F70491F840A07003DC38D /* Build configuration list for PBXNativeTarget "Food DeliveryTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				204F704B1F840A07003DC38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204F704C1F840A07003DC38D /* Build configuration list for PBXNativeTarget "Food DeliveryUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				204F704E1F840A07003DC38D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
