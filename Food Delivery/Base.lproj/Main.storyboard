@@ -46,7 +46,7 @@
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" العدد المطلوب :   " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nRu-ew-oHS">
                                             <rect key="frame" x="258.5" y="59.5" width="116.5" height="30"/>
-                                            <color key="backgroundColor" red="0.41877451539999999" green="0.65514427419999999" blue="0.3383448422" alpha="0.71866747360000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.33333333329999998" green="0.57647058819999997" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="30" id="UQ5-ii-4x3"/>
                                             </constraints>
@@ -56,7 +56,7 @@
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQV-n5-7KL">
                                             <rect key="frame" x="90" y="59.5" width="118.5" height="30"/>
-                                            <color key="backgroundColor" red="0.33333333329999998" green="0.57647058819999997" blue="0.12941176469999999" alpha="0.63995612157534243" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" red="0.33333333329999998" green="0.57647058819999997" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="30" id="veh-kE-zTg"/>
                                             </constraints>
@@ -103,6 +103,9 @@
                                         <constraint firstItem="n1x-iW-bun" firstAttribute="top" secondItem="49c-9W-jTm" secondAttribute="top" id="sPT-NW-zGj"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="image" destination="n1x-iW-bun" id="tpK-L8-cSw"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
