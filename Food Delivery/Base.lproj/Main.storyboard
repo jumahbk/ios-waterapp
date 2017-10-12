@@ -100,7 +100,7 @@
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMe-Ou-YpB">
                                                             <rect key="frame" x="0.0" y="0.0" width="273.5" height="30"/>
-                                                            <color key="backgroundColor" red="0.16541582272490996" green="0.61398963730569944" blue="0.19102049966490214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="yht-2q-wPV"/>
                                                             </constraints>
@@ -127,7 +127,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="٦ لتر  في ١٢ عبوه" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVJ-6A-c4Q">
-                                                    <rect key="frame" x="110" y="35" width="260" height="23"/>
+                                                    <rect key="frame" x="80" y="35" width="290" height="23"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                                     <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -143,23 +143,23 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="waterbackground.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vug-Wr-dM3">
-                                                    <rect key="frame" x="30" y="25" width="80" height="80"/>
+                                                    <rect key="frame" x="0.0" y="25" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Vug-Wr-dM3" secondAttribute="height" multiplier="1:1" id="TUa-NC-wq8"/>
                                                         <constraint firstAttribute="height" constant="80" id="iTC-Dp-OBu"/>
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="ngo-ph-Uj8">
-                                                    <rect key="frame" x="115" y="63" width="250" height="20.5"/>
+                                                    <rect key="frame" x="85" y="63" width="280" height="20.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ريال سعودي" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bq-J9-kgw">
-                                                            <rect key="frame" x="0.0" y="0.0" width="208.5" height="20.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="233.5" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="١٥" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcL-cv-mvA">
-                                                            <rect key="frame" x="208.5" y="0.0" width="41.5" height="20.5"/>
+                                                            <rect key="frame" x="233.5" y="0.0" width="46.5" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -175,7 +175,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="sVJ-6A-c4Q" secondAttribute="trailing" constant="5" id="BeV-vP-IAc"/>
                                                 <constraint firstItem="sVJ-6A-c4Q" firstAttribute="leading" secondItem="Vug-Wr-dM3" secondAttribute="trailing" id="DIp-c8-c1R"/>
                                                 <constraint firstItem="ngo-ph-Uj8" firstAttribute="top" secondItem="sVJ-6A-c4Q" secondAttribute="bottom" constant="5" id="DZU-bU-8w3"/>
-                                                <constraint firstItem="Vug-Wr-dM3" firstAttribute="leading" secondItem="Lc4-AZ-JuY" secondAttribute="leading" constant="30" id="EK4-6Y-4jw"/>
+                                                <constraint firstItem="Vug-Wr-dM3" firstAttribute="leading" secondItem="Lc4-AZ-JuY" secondAttribute="leading" id="EK4-6Y-4jw"/>
                                                 <constraint firstAttribute="trailing" secondItem="ngo-ph-Uj8" secondAttribute="trailing" constant="10" id="Nes-ps-mO8"/>
                                                 <constraint firstAttribute="trailing" secondItem="IUr-tR-OB1" secondAttribute="trailing" id="ZlZ-UV-lIx"/>
                                                 <constraint firstAttribute="bottom" secondItem="IUr-tR-OB1" secondAttribute="bottom" id="cRW-Ue-oBR"/>
