@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rZi-1L-nb5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="rZi-1L-nb5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +13,13 @@
         <!--منتجاتنا-->
         <scene sceneID="9GN-mM-IIT">
             <objects>
-                <tableViewController id="vaz-Ea-K54" sceneMemberID="viewController">
+                <tableViewController id="vaz-Ea-K54" customClass="ProductListViewControllerTableViewController" customModule="Food_Delivery" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="AKW-dA-AfM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="90" id="WVS-e5-kuS" customClass="CategoryCellTableViewCell" customModule="Food_Delivery" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="productview" selectionStyle="default" indentationWidth="10" reuseIdentifier="productview" rowHeight="90" id="WVS-e5-kuS">
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WVS-e5-kuS" id="49c-9W-jTm">
@@ -103,15 +103,8 @@
                                         <constraint firstItem="n1x-iW-bun" firstAttribute="top" secondItem="49c-9W-jTm" secondAttribute="top" id="sPT-NW-zGj"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="image" destination="n1x-iW-bun" id="tpK-L8-cSw"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="vaz-Ea-K54" id="Lw4-59-W48"/>
-                            <outlet property="delegate" destination="vaz-Ea-K54" id="FKY-PQ-Wzc"/>
-                        </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="منتجاتنا" image="box" selectedImage="box" id="uTs-yA-g8g"/>
                     <navigationItem key="navigationItem" id="5z5-Wl-Dkt"/>
