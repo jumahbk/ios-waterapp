@@ -14,7 +14,8 @@
 		204F702C1F840A06003DC38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F702A1F840A06003DC38D /* LaunchScreen.storyboard */; };
 		204F70371F840A06003DC38D /* Food_DeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F70361F840A06003DC38D /* Food_DeliveryTests.swift */; };
 		204F70421F840A07003DC38D /* Food_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F70411F840A07003DC38D /* Food_DeliveryUITests.swift */; };
-		D63990971F8F5DCB00525BF5 /* ProductListViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63990961F8F5DCB00525BF5 /* ProductListViewControllerTableViewController.swift */; };
+		D6C3563D1F8FDED2007FF154 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3563C1F8FDED2007FF154 /* ProductList.swift */; };
+		D6C3563F1F8FE095007FF154 /* ProductCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3563E1F8FE095007FF154 /* ProductCellTableViewCell.swift */; };
 		D6D48BDE1F86C73100A6E3BD /* waterbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D48BDD1F86C73100A6E3BD /* waterbackground.jpg */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,8 @@
 		204F703D1F840A07003DC38D /* Food DeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food DeliveryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F70411F840A07003DC38D /* Food_DeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_DeliveryUITests.swift; sourceTree = "<group>"; };
 		204F70431F840A07003DC38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D63990961F8F5DCB00525BF5 /* ProductListViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductListViewControllerTableViewController.swift; path = ../ProductListViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		D6C3563C1F8FDED2007FF154 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		D6C3563E1F8FE095007FF154 /* ProductCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellTableViewCell.swift; sourceTree = "<group>"; };
 		D6D48BDD1F86C73100A6E3BD /* waterbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterbackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,11 +106,12 @@
 				D6D48BDC1F86C6B400A6E3BD /* images */,
 				204F70211F840A06003DC38D /* AppDelegate.swift */,
 				204F70231F840A06003DC38D /* ViewController.swift */,
-				D63990961F8F5DCB00525BF5 /* ProductListViewControllerTableViewController.swift */,
 				204F70251F840A06003DC38D /* Main.storyboard */,
+				D6C3563E1F8FE095007FF154 /* ProductCellTableViewCell.swift */,
 				204F70281F840A06003DC38D /* Assets.xcassets */,
 				204F702A1F840A06003DC38D /* LaunchScreen.storyboard */,
 				204F702D1F840A06003DC38D /* Info.plist */,
+				D6C3563C1F8FDED2007FF154 /* ProductList.swift */,
 			);
 			path = "Food Delivery";
 			sourceTree = "<group>";
@@ -274,7 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D63990971F8F5DCB00525BF5 /* ProductListViewControllerTableViewController.swift in Sources */,
+				D6C3563D1F8FDED2007FF154 /* ProductList.swift in Sources */,
+				D6C3563F1F8FE095007FF154 /* ProductCellTableViewCell.swift in Sources */,
 				204F70241F840A06003DC38D /* ViewController.swift in Sources */,
 				204F70221F840A06003DC38D /* AppDelegate.swift in Sources */,
 			);
