@@ -16,6 +16,7 @@
 		204F70421F840A07003DC38D /* Food_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F70411F840A07003DC38D /* Food_DeliveryUITests.swift */; };
 		D69804071F90A5EE007CACEF /* CartListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69804061F90A5EE007CACEF /* CartListController.swift */; };
 		D69804091F90A818007CACEF /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69804081F90A818007CACEF /* CartCell.swift */; };
+		D698040B1F910C41007CACEF /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D698040A1F910C41007CACEF /* ContactUs.swift */; };
 		D6C3563D1F8FDED2007FF154 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3563C1F8FDED2007FF154 /* ProductList.swift */; };
 		D6C3563F1F8FE095007FF154 /* ProductCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C3563E1F8FE095007FF154 /* ProductCellTableViewCell.swift */; };
 		D6D48BDE1F86C73100A6E3BD /* waterbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6D48BDD1F86C73100A6E3BD /* waterbackground.jpg */; };
@@ -54,6 +55,7 @@
 		204F70431F840A07003DC38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D69804061F90A5EE007CACEF /* CartListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartListController.swift; sourceTree = "<group>"; };
 		D69804081F90A818007CACEF /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
+		D698040A1F910C41007CACEF /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
 		D6C3563C1F8FDED2007FF154 /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
 		D6C3563E1F8FE095007FF154 /* ProductCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellTableViewCell.swift; sourceTree = "<group>"; };
 		D6D48BDD1F86C73100A6E3BD /* waterbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterbackground.jpg; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				D6C3563C1F8FDED2007FF154 /* ProductList.swift */,
 				D69804061F90A5EE007CACEF /* CartListController.swift */,
 				D69804081F90A818007CACEF /* CartCell.swift */,
+				D698040A1F910C41007CACEF /* ContactUs.swift */,
 			);
 			path = "Food Delivery";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				D69804091F90A818007CACEF /* CartCell.swift in Sources */,
 				D6C3563F1F8FE095007FF154 /* ProductCellTableViewCell.swift in Sources */,
 				D69804071F90A5EE007CACEF /* CartListController.swift in Sources */,
+				D698040B1F910C41007CACEF /* ContactUs.swift in Sources */,
 				204F70241F840A06003DC38D /* ViewController.swift in Sources */,
 				204F70221F840A06003DC38D /* AppDelegate.swift in Sources */,
 			);
