@@ -5,7 +5,6 @@
 //  Created by Bander on 12/10/2017.
 //  Copyright © 2017 Paragon Saudi Arabia. All rights reserved.
 //
-
 import UIKit
 import QuartzCore
 class ProductList: UIViewController, UITableViewDataSource, UITableViewDelegate {
@@ -17,12 +16,12 @@ class ProductList: UIViewController, UITableViewDataSource, UITableViewDelegate 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "productcell", for: indexPath) as! ProductCellTableViewCell
         cell.layer.cornerRadius = 5
-        let shadowPath2 = UIBezierPath(rect: cell.bounds)
-        cell.layer.masksToBounds = false
-        cell.layer.shadowColor = UIColor.black.cgColor
-        cell.layer.shadowOffset = CGSize(width: CGFloat(1.0), height: CGFloat(3.0))
-        cell.layer.shadowOpacity = 0.5
-        cell.layer.shadowPath = shadowPath2.cgPath
+//        let shadowPath2 = UIBezierPath(rect: cell.bounds)
+//        cell.layer.masksToBounds = false
+//        cell.layer.shadowColor = UIColor.black.cgColor
+//        cell.layer.shadowOffset = CGSize(width: CGFloat(1.0), height: CGFloat(3.0))
+//        cell.layer.shadowOpacity = 0.5
+//        cell.layer.shadowPath = shadowPath2.cgPath
         
         return (cell)
     }
