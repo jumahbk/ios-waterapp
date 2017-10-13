@@ -14,6 +14,8 @@
 		204F702C1F840A06003DC38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F702A1F840A06003DC38D /* LaunchScreen.storyboard */; };
 		204F70371F840A06003DC38D /* Food_DeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F70361F840A06003DC38D /* Food_DeliveryTests.swift */; };
 		204F70421F840A07003DC38D /* Food_DeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204F70411F840A07003DC38D /* Food_DeliveryUITests.swift */; };
+		D68472F51F91174A00481430 /* StatusViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68472F41F91174A00481430 /* StatusViewTableViewCell.swift */; };
+		D68472F71F9117C700481430 /* StatusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68472F61F9117C700481430 /* StatusTableViewController.swift */; };
 		D69804071F90A5EE007CACEF /* CartListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69804061F90A5EE007CACEF /* CartListController.swift */; };
 		D69804091F90A818007CACEF /* CartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69804081F90A818007CACEF /* CartCell.swift */; };
 		D698040B1F910C41007CACEF /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D698040A1F910C41007CACEF /* ContactUs.swift */; };
@@ -53,6 +55,8 @@
 		204F703D1F840A07003DC38D /* Food DeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food DeliveryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F70411F840A07003DC38D /* Food_DeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_DeliveryUITests.swift; sourceTree = "<group>"; };
 		204F70431F840A07003DC38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68472F41F91174A00481430 /* StatusViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewTableViewCell.swift; sourceTree = "<group>"; };
+		D68472F61F9117C700481430 /* StatusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableViewController.swift; sourceTree = "<group>"; };
 		D69804061F90A5EE007CACEF /* CartListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartListController.swift; sourceTree = "<group>"; };
 		D69804081F90A818007CACEF /* CartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCell.swift; sourceTree = "<group>"; };
 		D698040A1F910C41007CACEF /* ContactUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUs.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				D69804061F90A5EE007CACEF /* CartListController.swift */,
 				D69804081F90A818007CACEF /* CartCell.swift */,
 				D698040A1F910C41007CACEF /* ContactUs.swift */,
+				D68472F41F91174A00481430 /* StatusViewTableViewCell.swift */,
+				D68472F61F9117C700481430 /* StatusTableViewController.swift */,
 			);
 			path = "Food Delivery";
 			sourceTree = "<group>";
@@ -286,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68472F71F9117C700481430 /* StatusTableViewController.swift in Sources */,
 				D6C3563D1F8FDED2007FF154 /* ProductList.swift in Sources */,
 				D69804091F90A818007CACEF /* CartCell.swift in Sources */,
+				D68472F51F91174A00481430 /* StatusViewTableViewCell.swift in Sources */,
 				D6C3563F1F8FE095007FF154 /* ProductCellTableViewCell.swift in Sources */,
 				D69804071F90A5EE007CACEF /* CartListController.swift in Sources */,
 				D698040B1F910C41007CACEF /* ContactUs.swift in Sources */,
